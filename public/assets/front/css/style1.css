@@ -1,0 +1,46 @@
+.course-details-category span {
+    font-weight: 350;
+    font-size: 28px;
+    float: left;
+    margin-right: 15px;
+  
+    color: #5fcf80;
+    
+}
+.course-details-category span b {
+    font-weight: 700;
+}
+.course-details-category{
+    margin-bottom: 30px;
+}
+.float-none {
+    float: none!important;
+    
+}
+.widget-title {
+    font-size: 30px;
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.widget-title span {
+    font-weight: 700;
+}
+.text-uppercase {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+    display: block;
+    margin-bottom: 10px;
+}
+.selectcat {
+    height: 50px!important;
+    border: none !important;
+    padding: 15px ;
+    width: 100% ;
+    background-color: #f0f0f0 !important;
+}
+a{
+    text-decoration:none !important;
+}

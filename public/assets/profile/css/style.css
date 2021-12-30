@@ -1,0 +1,35 @@
+.profile .profile-card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2c384e;
+  margin: 10px 0 0 0;
+}
+
+.profile .profile-card h3 {
+  font-size: 18px;
+}
+
+.profile .profile-edit label {
+  font-weight: 650;
+  color: rgba(1, 41, 112, 0.6);
+}
+
+.profile .profile-overview .card-title {
+  color: #2c384e;
+}
+
+.card-title {
+  padding: 20px 0 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.profile .profile-overview .label {
+  font-weight: 650;
+  color: rgba(1, 41, 112, 0.6);
+}
+.profile .profile-overview .row {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
