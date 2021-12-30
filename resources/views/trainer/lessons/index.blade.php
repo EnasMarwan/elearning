@@ -33,6 +33,7 @@
                             <th>{{__('Name')}}</th>
                             <th>{{__('Lesson video')}} </th>
                             <th>{{__('Lesson file')}} </th>
+                            <th>{{__('created_at')}} </th>
                             <th>{{__('Actions')}}</th>
                         </tr>
                     </thead>
@@ -45,6 +46,7 @@
                             <td> {{$lesson->name }}</td>
                             <td> {{$lesson->video_name }}</td>
                             <td>{{$lesson->file_name }}</td>
+                            <td>{{$lesson->created_at }}</td>
                             <td>
                                 <a href="{{ route('lessons.destroy' , $lesson->id )}}"> 
                                     <button class="btn btn-sm btn-danger"><i class="fa fa-trash" data-toggle="tooltip" data-placement="top" title="" data-original-title="Warning"></i></button>

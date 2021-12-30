@@ -95,10 +95,10 @@
     <label for="title" class="control-label">{{__('Price')}}</label>
     <input class="form-control"  name="price" id= "price" type="text" value="{{old('price',$course->price)}}">
 </div>
-    </div>
+</div>
 
-    <div class="form-row">
-
+<div class="form-row">
+@if(Auth::user()->super_admin)
 <div class="form-group col-md-4">
 <label  class="control-label">{{__('Trainer')}}:</label>
         <br>
@@ -113,6 +113,7 @@
     
 </select><br>
 </div>
+@endif
 
 
 <div class="form-group col-md-8">

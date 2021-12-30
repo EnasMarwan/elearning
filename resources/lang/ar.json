@@ -155,7 +155,8 @@
     "DataTables Messages" : "جدول الرسائل",
     "Title" : "العنوان",
     "Yes": "نعم",
-    "No" : "لا"
+    "No" : "لا",
+    "created_at" : "وقت الاضافة"
     
 
 
